@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahrous</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!-- style -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-lg shadow-sm bg-white sticky-top">
+    <div class="container">
+
+      <a class="navbar-brand" href="#">&lt;/ Mahrous &gt;</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link home active" aria-current="page" href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#works">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+  <!-- End Navbar -->
+
+
+  <!-- Start Landing -->
+  <Section class="landing d-flex align-items-center justify-content-center pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 mb-5 mb-md-0">
+          <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Mahrous</span><br> Back-End Developer</h1>
+          <div class="d-flex mt-5">
+            <a href="images/cv.pdf" target="_blank" class="btn btn-primary" download>
+              <i class="fa-solid fa-download"></i>
+              Resume
+            </a>
+          </div>
+          <div class="d-flex mt-5">
+            <a href="https://www.linkedin.com/in/mahrous-tamim-a39062331/" target="_blank"
+              class="btn btn-outline-primary ms-2">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/mahroustamim" target="_blank" class="btn btn-outline-secondary ms-2">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6 mb-5 mt-md-0">
+          <img src="images/landing.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </Section>
+  <!-- End Landing -->
+
+  <!-- Start About -->
+  <section id="about" class="about d-flex align-items-center justify-content-center">
+    <div class="container">
+      <h2 class="main_title text-center">About</h2>
+
+      <div class="row mt-5">
+        <div class="col-12 col-md-6">
+          <div class="mt-5" style="font-size: 20px;">I am Mahrous Tamim, a Back-End Developer with 1 year of experience
+            specializing in PHP and Laravel. I have a passion for building efficient, scalable web applications, and I
+            am always eager to expand my knowledge in other technologies. My focus is on delivering high-quality code
+            that solves real-world problems and enhances user experiences.</div>
+        </div>
+        <div class="col-12 col-md-6 mt-5">
+          <img src="images/about.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About -->
+
+  <!-- Start Skills -->
+  <section id="skills" class="skills ">
+    <div class="container">
+      <h2 class="main_title text-center">Skills</h2>
+
+      <ul class="nav nav-pills mb-5 d-flex justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+            type="button" role="tab" aria-controls="pills-home" aria-selected="true">Front-End</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Back-End</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+            type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Tools</button>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+          <div class="row">
+            <div class="col-6 mb-3">
+              <div class="skill d-flex justify-content-between shadow-lg p-3 rounded">
+                <i class="icon fab fa-html5"></i>
+                <span>HTML5</span>
+              </div>
+            </div>
+            <div class="col-6 mb-3">
+              <div class="skill d-flex justify-content-between shadow-lg p-3 rounded">
+                <i class="icon fab fa-css3-alt"></i>
+                <span>CSS</span>
+              </div>
+            </div>
+            <div class="col-6 mb-3">
+              <div class="skill d-flex justify-content-between shadow-lg p-3 rounded">
+                <i class="icon fab fa-js"></i>
+                <span>JS</span>
+              </div>
+            </div>
+            <div class="col-6 mb-3">
+              <div class="skill d-flex justify-content-between shadow-lg p-3 rounded">
+                <i class="icon fab fa-bootstrap"></i>
+                <span>Bootstrap</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+          <div class="row">
+            <div class="col-6 mb-3">
+              <div class="skill d-flex justify-content-between shadow-lg p-3 rounded">
+                <i class="icon fab fa-php"></i>
+                <span>PHP</span>
+              </div>
+            </div>
+            <div class="col-6 mb-3">
+              <div class="skill d-flex justify-content-between shadow-lg p-3 rounded">
+                <i class="icon fas fa-database"></i>
+                <span>MYSQL</span>
+              </div>
+            </div>
+            <div class="col-6 mb-3">
+              <div class="skill d-flex justify-content-between shadow-lg p-3 rounded">
+                <i class="icon fab fa-laravel"></i>
+                <span>Laravel</span>
+              </div>
+            </div>
+            <div class="col-6 mb-3">
+              <div class="skill d-flex justify-content-between shadow-lg p-3 rounded">
+                <i class="icon fas fa-server"></i>
+                <span>REST API</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+
+          <div class="row">
+            <div class="col-6 mb-3">
+              <div class="skill d-flex justify-content-between shadow-lg p-3 rounded">
+                <i class="icon fab fa-git-alt"></i>
+                <span>GIT</span>
+              </div>
+            </div>
+            <div class="col-6 mb-3">
+              <div class="skill d-flex justify-content-between shadow-lg p-3 rounded">
+                <i class="icon fab fa-github"></i>
+                <span>GitHub</span>
+              </div>
+            </div>
+            <div class="col-6 mb-3">
+              <div class="skill d-flex justify-content-between shadow-lg p-3 rounded">
+                <i class="icon fas fa-server"></i>
+                <span>Postman</span>
+              </div>
+            </div>
+            <div class="col-6 mb-3">
+              <div class="skill d-flex justify-content-between shadow-lg p-3 rounded">
+                <i class="icon fab fa-ubuntu"></i>
+                <span>Ubuntu</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End Skills -->
+  <!-- Start Works -->
+  <section id="works" class="works">
+    <div class="container">
+      <h2 class="main_title text-center">Works</h2>
+
+      <div class="row">
+
+        <div class="col-12 col-md-4 mb-5">
+          <div class="card work-card">
+            <img src="images/blog.png" class="card-img-top" alt="Blog Platform">
+            <div class="card-body">
+              <h5 class="card-title">Blog Platform</h5>
+              <p class="card-text">
+                Developed a multilingual blog platform with a comprehensive admin and writer dashboard. The admin
+                dashboard allows full content management and customization.
+                Features include branding options, social media links, dynamic content display, search functionality,
+                and a comment system.
+                Built with a responsive design for seamless user experience.
+              </p>
+              <a href="https://github.com/mahroustamim/blog" target="_blank" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-5">
+          <div class="card work-card">
+            <img src="images/invoices.jpg" class="card-img-top" alt="Invoice System">
+            <div class="card-body">
+              <h5 class="card-title">Invoice System</h5>
+              <p class="card-text">
+                Developed an invoice management system for a debt collection company. Includes invoice creation, export,
+                notifications, and detailed user management.
+                Integrated roles and permissions for secure management. The platform features reports and pagination for
+                enhanced user navigation.
+              </p>
+              <a href="https://github.com/mahroustamim/invoices" target="_blank" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-5">
+          <div class="card work-card">
+            <img src="images/shop.jpg" class="card-img-top" alt="E-commerce Platform">
+            <div class="card-body">
+              <h5 class="card-title">E-commerce Platform</h5>
+              <p class="card-text">
+                Developed an e-commerce platform with product management, order tracking, secure Stripe payment
+                integration, and multi-language support (English/Arabic).
+                The platform also includes product ratings, social media management, and customizable website settings.
+              </p>
+              <a href=" https://github.com/mahroustamim/E-commerce" target="_blank" class="btn btn-primary">Learn
+                More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- End Works -->
+  <!-- Start Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="main_title text-center">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form id="contactForm">
+            <div class="form-group mb-3">
+              <label for="name">Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group mb-3">
+              <label for="email">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group mb-3">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          <div id="responseMessage" class="mt-3"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact -->
+  <!-- Start Footer -->
+  <footer class="p-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0 mt-2">
+          &copy; 2024 All Rights Reserved: <span class="text-primary">Mahrous Tamim</span>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <a href="https://www.linkedin.com/in/mahrous-tamim-a39062331/" target="_blank"
+            class="btn btn-outline-light me-2">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/mahroustamim" target="_blank" class="btn btn-outline-light">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- End Footer -->
+
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- Font Awesome JS -->
+  <script src="js/all.min.js"></script>
+
+  <!-- emailjs -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+  <!-- javascrip -->
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
