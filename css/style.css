@@ -9,11 +9,11 @@ html {
 }
 
 body {
-    font-family: 'Rubik', sans-serif;   
+    font-family: 'Rubik', sans-serif;
 }
 
 nav.navbar {
-    z-index: 1030; 
+    z-index: 1030;
 }
 
 
@@ -21,8 +21,10 @@ nav.navbar {
 /* Start Component */
 .main_title {
     color: var(--main-color);
-    position: relative; /* Add positioning context for the pseudo-element */
-    padding-bottom: 10px; /* Add some space below the title */
+    position: relative;
+    /* Add positioning context for the pseudo-element */
+    padding-bottom: 10px;
+    /* Add some space below the title */
     margin: 50px 0 50px 0;
 }
 
@@ -32,7 +34,8 @@ nav.navbar {
     width: 120px;
     height: 4px;
     background-color: var(--main-color);
-    bottom: 0; /* Position the line at the bottom of the title */
+    bottom: 0;
+    /* Position the line at the bottom of the title */
     left: 50%;
     transform: translateX(-50%);
 }
@@ -58,12 +61,16 @@ section {
 .navbar .navbar-nav .active::before {
     content: "";
     position: absolute;
-    bottom: 0; /* Ensures the bar appears at the bottom */
-    left: 0; /* Aligns the bar with the left side */
+    bottom: 0;
+    /* Ensures the bar appears at the bottom */
+    left: 0;
+    /* Aligns the bar with the left side */
     width: 100%;
-    height: 4px; /* Adjust height if needed */
+    height: 4px;
+    /* Adjust height if needed */
     background-color: var(--main-color);
-    border-radius: 5px; /* Optional: Rounds the edges of the bar */
+    border-radius: 5px;
+    /* Optional: Rounds the edges of the bar */
 }
 
 
@@ -87,12 +94,15 @@ section {
     /* Optional: add some box-shadow to make it stand out */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
+
 /* End Landing */
 
 /* Start About */
 .about img {
     max-width: 350px;
 }
+
 /* End About */
 
 /* Start Skills */
@@ -114,18 +124,21 @@ section {
     font-size: 30px;
     color: var(--main-color);
 }
+
 /* End Skills */
 /* Start Works */
 /* Common card style */
 .work-card {
     padding: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    height: 100%; /* Ensure all cards are the same height */
+    height: 100%;
+    /* Ensure all cards are the same height */
 }
 
 .work-card img {
     max-height: 200px;
-    object-fit: cover; /* Ensure image is properly cropped */
+    object-fit: cover;
+    /* Ensure image is properly cropped */
     margin-bottom: 15px;
 }
 
@@ -149,7 +162,5 @@ footer {
     background-color: var(--second-color);
     color: white;
 }
+
 /* End Footer */
-
-
-
